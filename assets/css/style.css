@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif; }
+
+.navegador {
+  border: 3px solid #1a4726;
+  display: flex;
+  flex-direction: row;
+  background-color: white; }
+  .navegador .hamburguesa {
+    border: 6px solid #1a4726; }
+  .navegador .imgLogo {
+    display: flex;
+    align-items: center; }
+    .navegador .imgLogo img {
+      width: 90px;
+      margin: 15px; }
+    .navegador .imgLogo h1 {
+      color: #1a4726;
+      margin: 5px 0 0 50px; }
+
+.mainIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .mainIndex .sloganIndex {
+    margin-top: 25px; }
+    .mainIndex .sloganIndex h2 {
+      font-size: 50px;
+      color: #1a4726;
+      transition: all 3s; }
+    .mainIndex .sloganIndex h2:hover {
+      transform: rotateY(360deg); }
+    .mainIndex .sloganIndex H3 {
+      color: #1a4726;
+      margin-top: 15PX;
+      font-size: 35PX; }
+  .mainIndex .sectionIndex div h3 {
+    color: #1a4726;
+    font-size: 35px;
+    margin-top: 55px;
+    text-align: center; }
+  .mainIndex .tarjetas .cierres {
+    transition: all 3s;
+    margin-top: 60px;
+    box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+  .mainIndex .tarjetas .cierres:hover {
+    transform: translate(-10px, -10px) scale(1.2); }
+  .mainIndex .tarjetas .cintas {
+    transition: all 3s;
+    margin-top: 60px;
+    box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+    .mainIndex .tarjetas .cintas img {
+      padding: 30px; }
+  .mainIndex .tarjetas .cintas:hover {
+    transform: translate(-10px, -10px) scale(1.2); }
+  .mainIndex .tarjetas .hilos {
+    transition: all 3s;
+    margin-top: 60px;
+    box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+    .mainIndex .tarjetas .hilos img {
+      padding: 30px; }
+  .mainIndex .tarjetas .hilos:hover {
+    transform: translate(-10px, -10px) scale(1.2); }
+  .mainIndex .tarjetas .guata {
+    transition: all 3s;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+    .mainIndex .tarjetas .guata img {
+      padding: 30px; }
+  .mainIndex .tarjetas .guata:hover {
+    transform: translate(-10px, -10px) scale(1.2); }

@@ -1,0 +1,79 @@
+.mainIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .sloganIndex{
+        margin-top: 25px;
+       
+        h2{
+            font-size: 50px;
+            color: $colorPrimario;
+            transition: all 3s;
+        }
+        h2:hover{
+            
+                transform: rotateY(360deg);
+            
+        }
+        H3{
+            color: $colorPrimario;
+            margin-top: 15PX;
+            font-size: 35PX;
+        }
+    }
+    .sectionIndex{
+        div{
+            h3{
+                color: $colorPrimario;
+                font-size: 35px;
+                margin-top: 55px;
+                text-align: center;
+            }
+        }
+    }
+    .tarjetas{
+        
+        .cierres{
+            transition: all 3s;
+            margin-top: 60px;
+            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+        }
+        .cierres:hover{
+            transform: translate(-10px, -10px)  scale(1.2);
+        }
+        .cintas{
+            transition: all 3s;
+            margin-top: 60px;
+            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+            img{
+                padding: 30px;
+            }
+        }
+        .cintas:hover{
+            transform: translate(-10px, -10px)  scale(1.2);
+        }
+        .hilos{
+            transition: all 3s;
+            margin-top: 60px;
+            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+            img{
+                padding: 30px;
+            }
+        }
+        .hilos:hover{
+            transform: translate(-10px, -10px)  scale(1.2);
+        }
+        .guata{
+            transition: all 3s;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+            img{
+                padding: 30px;
+            }
+        }
+        .guata:hover{
+            transform: translate(-10px, -10px)  scale(1.2);
+        }
+    }
+    }
