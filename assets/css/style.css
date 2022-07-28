@@ -24,6 +24,18 @@
       color: #1a4726;
       margin: 5px 0 0 50px; }
 
+.headerNos h2 {
+  margin-top: 90px;
+  text-align: center;
+  color: #1a4726;
+  font-size: 100px; }
+
+.headerContacto h3 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 100px;
+  color: #1a4726; }
+
 .mainIndex {
   display: flex;
   flex-direction: column;
@@ -111,6 +123,89 @@
     color: #1a4726;
     width: 700px;
     margin-top: 25px; }
+
+.mainContacto .divForm {
+  color: #1a4726;
+  font-size: 10px; }
+  .mainContacto .divForm textarea {
+    width: 95%;
+    border: 4px solid #1a4726;
+    border-radius: 15px;
+    background-color: #d0ffe5;
+    color: black;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 15px; }
+  .mainContacto .divForm input {
+    width: 95%;
+    border: 4px solid #1a4726;
+    border-radius: 15px;
+    background-color: #d0ffe5;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin: 15px; }
+  .mainContacto .divForm .btnBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px; }
+  .mainContacto .divForm .btnBtn input {
+    background-color: #1a4726;
+    font-size: 24px;
+    width: 150px;
+    align-items: center;
+    margin: 1px;
+    font-style: none;
+    text-decoration: none; }
+
+.mainContacto section {
+  background-color: #d0ffe5;
+  margin: 6px;
+  padding: 6px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-items: center; }
+  .mainContacto section .logoRedesContacto {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 55px;
+    padding: 10px;
+    justify-content: space-evenly; }
+    .mainContacto section .logoRedesContacto img {
+      width: 30px;
+      margin-bottom: 30px; }
+    .mainContacto section .logoRedesContacto .divInstagram {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin-bottom: 10px; }
+      .mainContacto section .logoRedesContacto .divInstagram h5 {
+        margin-bottom: 30px;
+        margin-left: 15px;
+        font-size: 16px;
+        align-items: center; }
+  .mainContacto section .logosContacto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 30px; }
+    .mainContacto section .logosContacto img {
+      width: 30px; }
+    .mainContacto section .logosContacto .divDatos {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin-bottom: 80px; }
+      .mainContacto section .logosContacto .divDatos h5 {
+        font-size: 16px;
+        margin-left: 5px; }
 
 footer {
   height: 300px;
