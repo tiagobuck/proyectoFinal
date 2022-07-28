@@ -101,9 +101,25 @@
             flex-direction: column;
             align-items: center;
             div{
+                text-align: center;
+               margin-top: 25px;
+                background-color: rgba(0, 0, 0, 0.933);
                 img{
-                    width: 300px;
+                    width: 700px;
                 }
+                h4{
+                    
+                    color: $colorPrimario;
+                    font-size: 30px;
+                    margin-top: 10px;
+                }
+            }
+            p{
+                font-size: 40px;
+                color: $colorPrimario;
+                width: 700px;
+                margin-top: 25px;
+
             }
         }
     }
