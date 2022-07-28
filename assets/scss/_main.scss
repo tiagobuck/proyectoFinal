@@ -37,6 +37,7 @@
             transition: all 3s;
             margin-top: 60px;
             box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+           
         }
         .cierres:hover{
             transform: translate(-10px, -10px)  scale(1.2);
@@ -46,6 +47,7 @@
             margin-top: 60px;
             box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
             img{
+               width: 500px;
                 padding: 30px;
             }
         }
@@ -76,4 +78,32 @@
             transform: translate(-10px, -10px)  scale(1.2);
         }
     }
+    }
+    .mainNos{
+        .parrafoNos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 50px 10px 10px 15px;    
+        font-size: 28px;
+        color: $colorPrimario;
+        background-color: rgba(0, 0, 0, 0.933);
+        padding: 10px;
+        p {
+            padding: 15px;
+            line-height: 40px;
+            
+          }
+        }
+        .somos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            div{
+                img{
+                    width: 300px;
+                }
+            }
+        }
     }

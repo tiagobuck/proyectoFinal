@@ -6,6 +6,7 @@ footer{
     justify-content: space-between;
     background-color: $colorPrimario;
     .logosFooter{
+        margin-top: 10px;
         a{
             img{
                 width: 64px;
@@ -16,12 +17,17 @@ footer{
     .isologo{
         display: flex;
         align-items: center;
+        justify-content: space-between;
+       
+        
        
         img{
             width: 100px;
             margin-bottom: 10px;
+            margin-right: 14px;
         }
         h5{
+            margin-left: 15px;
             color: white;
         }
     }
