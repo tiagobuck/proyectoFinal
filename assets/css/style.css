@@ -41,6 +41,12 @@
   font-size: 100px;
   color: #1a4726; }
 
+.headerCierres h3 {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 100px;
+  color: #1a4726; }
+
 .mainIndex {
   display: flex;
   flex-direction: column;
@@ -90,7 +96,7 @@
     margin-top: 60px;
     box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
     .mainIndex .tarjetas .cintas img {
-      width: 500px;
+      width: 600px;
       padding: 10px;
       margin-top: 15px; }
     .mainIndex .tarjetas .cintas h5 {
@@ -103,7 +109,7 @@
       text-align: center;
       color: #1a4726; }
     .mainIndex .tarjetas .cintas a {
-      width: 100%;
+      width: 846px;
       font-size: 26px;
       padding: 25px; }
   .mainIndex .tarjetas .cintas:hover {
@@ -186,91 +192,138 @@
     width: 700px;
     margin-top: 25px; }
 
-.mainContacto .divForm {
-  color: #1a4726;
-  font-size: 10px; }
-  .mainContacto .divForm textarea {
-    width: 95%;
-    border: 4px solid #1a4726;
-    border-radius: 15px;
+.mainContacto {
+  background-image: url(../img/bga.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat-y;
+  background-size: contain; }
+  .mainContacto .divForm {
+    color: #1a4726;
+    font-size: 10px; }
+    .mainContacto .divForm div {
+      margin-top: 55px;
+      margin-bottom: 55px; }
+    .mainContacto .divForm textarea {
+      width: 95%;
+      height: 450px;
+      border: 4px solid #1a4726;
+      border-radius: 15px;
+      background-color: #d0ffe5;
+      color: black;
+      font-size: 18px;
+      padding: 5px;
+      margin-left: 15px; }
+    .mainContacto .divForm input {
+      width: 95%;
+      height: 100px;
+      border: 4px solid #1a4726;
+      border-radius: 15px;
+      background-color: #d0ffe5;
+      color: white;
+      font-size: 20px;
+      padding: 5px;
+      margin: 15px; }
+    .mainContacto .divForm .btnBtn {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 15px; }
+    .mainContacto .divForm .btnBtn input {
+      background-color: #1a4726;
+      font-size: 24px;
+      width: 150px;
+      align-items: center;
+      margin: 1px;
+      font-style: none;
+      text-decoration: none; }
+  .mainContacto section {
     background-color: #d0ffe5;
-    color: black;
-    font-size: 18px;
-    padding: 5px;
-    margin-left: 15px; }
-  .mainContacto .divForm input {
-    width: 95%;
-    border: 4px solid #1a4726;
-    border-radius: 15px;
-    background-color: #d0ffe5;
-    color: white;
-    font-size: 20px;
-    padding: 5px;
-    margin: 15px; }
-  .mainContacto .divForm .btnBtn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 15px; }
-  .mainContacto .divForm .btnBtn input {
-    background-color: #1a4726;
-    font-size: 24px;
-    width: 150px;
-    align-items: center;
-    margin: 1px;
-    font-style: none;
-    text-decoration: none; }
-
-.mainContacto section {
-  background-color: #d0ffe5;
-  margin: 6px;
-  margin-bottom: 25px;
-  padding: 6px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-items: center; }
-  .mainContacto section .logoRedesContacto {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    margin-right: 55px;
-    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 350px;
+    margin-bottom: 250px;
     padding: 10px;
-    justify-content: space-evenly; }
-    .mainContacto section .logoRedesContacto img {
-      width: 30px;
-      margin-bottom: 30px; }
-    .mainContacto section .logoRedesContacto .divInstagram {
-      display: flex;
-      flex-direction: row-reverse;
-      align-items: center;
-      margin-bottom: 10px; }
-      .mainContacto section .logoRedesContacto .divInstagram h5 {
-        margin-bottom: 30px;
-        margin-left: 15px;
-        font-size: 16px;
-        align-items: center; }
-  .mainContacto section .logosContacto {
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    width: 50%;
-    margin-right: 50px;
-    margin-left: 30px;
-    margin-top: 30px; }
-    .mainContacto section .logosContacto img {
-      width: 30px; }
-    .mainContacto section .logosContacto .divDatos {
+    flex-direction: row-reverse;
+    justify-items: center; }
+    .mainContacto section .logoRedesContacto {
+      width: 50%;
       display: flex;
-      flex-direction: row-reverse;
+      flex-direction: column;
+      margin-right: 5px;
+      margin-top: 10px;
+      padding: 10px;
+      justify-content: space-evenly; }
+      .mainContacto section .logoRedesContacto img {
+        width: 30px;
+        margin-bottom: 30px; }
+      .mainContacto section .logoRedesContacto .divInstagram {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 10px; }
+        .mainContacto section .logoRedesContacto .divInstagram h5 {
+          margin-bottom: 30px;
+          margin-left: 15px;
+          font-size: 16px;
+          align-items: center; }
+    .mainContacto section .logosContacto {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
       align-items: center;
-      margin-bottom: 80px; }
-      .mainContacto section .logosContacto .divDatos h5 {
-        font-size: 16px;
-        margin-left: 5px; }
+      justify-content: space-between;
+      width: 50%;
+      margin-right: 50px;
+      margin-left: 30px;
+      margin-top: 30px; }
+      .mainContacto section .logosContacto img {
+        width: 30px; }
+      .mainContacto section .logosContacto .divDatos {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin-bottom: 80px; }
+        .mainContacto section .logosContacto .divDatos h5 {
+          font-size: 16px;
+          margin-left: 5px; }
+
+.mainCierres .mono {
+  background-color: rgba(0, 0, 0, 0.249); }
+  .mainCierres .mono h4 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: 42px;
+    color: #1a4726;
+    margin-top: 35px;
+    margin-bottom: 55px; }
+  .mainCierres .mono p {
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #1a4726; }
+  .mainCierres .mono .mono1y2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 152px; }
+    .mainCierres .mono .mono1y2 .mono1 {
+      width: 50%; }
+    .mainCierres .mono .mono1y2 .mono2 {
+      width: 50%; }
+    .mainCierres .mono .mono1y2 .mono3 {
+      width: 100%; }
+  .mainCierres .mono .ddp {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 152px; }
+  .mainCierres .mono .ddp1 {
+    width: 50%; }
+  .mainCierres .mono .ddp2 {
+    width: 50%; }
+
+aside {
+  margin-bottom: 100px; }
 
 footer {
   height: 300px;
