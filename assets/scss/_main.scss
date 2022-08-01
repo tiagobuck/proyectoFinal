@@ -6,7 +6,7 @@
         margin-top: 25px;
        
         h2{
-            font-size: 50px;
+            font-size: 90px;
             color: $colorPrimario;
             transition: all 3s;
         }
@@ -18,7 +18,8 @@
         H3{
             color: $colorPrimario;
             margin-top: 15PX;
-            font-size: 35PX;
+            font-size: 50PX;
+            text-align: center;
         }
     }
     .sectionIndex{
@@ -37,18 +38,54 @@
             transition: all 3s;
             margin-top: 60px;
             box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+            h5{
+                font-size: 35px;
+                color: $colorPrimario;
+                text-align: center;
+                text-decoration-line: underline;
+            }
+            p{
+                font-size: 25px;
+                text-align: center;
+                color: $colorPrimario;
+            }
+            a{
+                width: 100%;
+                font-size: 26px;
+                padding: 25px;
+            }
            
         }
         .cierres:hover{
             transform: translate(-10px, -10px)  scale(1.2);
         }
         .cintas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             transition: all 3s;
             margin-top: 60px;
             box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
             img{
                width: 500px;
-                padding: 30px;
+                padding: 10px;
+                margin-top: 15px;
+            }
+            h5{
+                font-size: 35px;
+                color: $colorPrimario;
+                text-align: center;
+                text-decoration-line: underline;
+            }
+            p{
+                font-size: 25px;
+                text-align: center;
+                color: $colorPrimario;
+            }
+            a{
+                width: 100%;
+                font-size: 26px;
+                padding: 25px;
             }
         }
         .cintas:hover{
@@ -61,6 +98,22 @@
             img{
                 padding: 30px;
             }
+            h5{
+                font-size: 35px;
+                color: $colorPrimario;
+                text-align: center;
+                text-decoration-line: underline;
+            }
+            p{
+                font-size: 25px;
+                text-align: center;
+                color: $colorPrimario;
+            }
+            a{
+                width: 100%;
+                font-size: 26px;
+                padding: 25px;
+            }
         }
         .hilos:hover{
             transform: translate(-10px, -10px)  scale(1.2);
@@ -72,6 +125,22 @@
             box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
             img{
                 padding: 30px;
+            }
+            h5{
+                font-size: 35px;
+                color: $colorPrimario;
+                text-align: center;
+                text-decoration-line: underline;
+            }
+            p{
+                font-size: 25px;
+                text-align: center;
+                color: $colorPrimario;
+            }
+            a{
+                width: 100%;
+                font-size: 26px;
+                padding: 25px;
             }
         }
         .guata:hover{
@@ -88,7 +157,7 @@
         margin: 50px 10px 10px 15px;    
         font-size: 28px;
         color: $colorPrimario;
-        background-color: rgba(0, 0, 0, 0.933);
+        background-color: rgba(0, 0, 0, 0.249);
         padding: 10px;
         p {
             padding: 15px;
@@ -174,7 +243,8 @@
         }
         section{
             background-color: $colorTerciario;
-            margin: 6px;
+            margin:     6px;
+            margin-bottom: 25px;
             padding: 6px;
             
             display: flex;
@@ -186,6 +256,7 @@
                 display: flex;
                 flex-direction: column;
                 margin-right: 55px;
+                margin-top: 10px;
                 padding: 10px;
                 justify-content: space-evenly;
                 img{
@@ -220,6 +291,7 @@
                 width: 50%;
                 margin-right: 50px;
                 margin-left: 30px;
+                margin-top: 30px;
                 img {
             
                     width: 30px;

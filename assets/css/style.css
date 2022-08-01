@@ -23,6 +23,11 @@
     .navegador .imgLogo h1 {
       color: #1a4726;
       margin: 5px 0 0 50px; }
+  .navegador .menuHamb ul li a {
+    font-size: 25px; }
+
+.headerH1 {
+  margin-top: 90px; }
 
 .headerNos h2 {
   margin-top: 90px;
@@ -43,7 +48,7 @@
   .mainIndex .sloganIndex {
     margin-top: 25px; }
     .mainIndex .sloganIndex h2 {
-      font-size: 50px;
+      font-size: 90px;
       color: #1a4726;
       transition: all 3s; }
     .mainIndex .sloganIndex h2:hover {
@@ -51,7 +56,8 @@
     .mainIndex .sloganIndex H3 {
       color: #1a4726;
       margin-top: 15PX;
-      font-size: 35PX; }
+      font-size: 50PX;
+      text-align: center; }
   .mainIndex .sectionIndex div h3 {
     color: #1a4726;
     font-size: 35px;
@@ -61,15 +67,45 @@
     transition: all 3s;
     margin-top: 60px;
     box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
+    .mainIndex .tarjetas .cierres h5 {
+      font-size: 35px;
+      color: #1a4726;
+      text-align: center;
+      text-decoration-line: underline; }
+    .mainIndex .tarjetas .cierres p {
+      font-size: 25px;
+      text-align: center;
+      color: #1a4726; }
+    .mainIndex .tarjetas .cierres a {
+      width: 100%;
+      font-size: 26px;
+      padding: 25px; }
   .mainIndex .tarjetas .cierres:hover {
     transform: translate(-10px, -10px) scale(1.2); }
   .mainIndex .tarjetas .cintas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     transition: all 3s;
     margin-top: 60px;
     box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
     .mainIndex .tarjetas .cintas img {
       width: 500px;
-      padding: 30px; }
+      padding: 10px;
+      margin-top: 15px; }
+    .mainIndex .tarjetas .cintas h5 {
+      font-size: 35px;
+      color: #1a4726;
+      text-align: center;
+      text-decoration-line: underline; }
+    .mainIndex .tarjetas .cintas p {
+      font-size: 25px;
+      text-align: center;
+      color: #1a4726; }
+    .mainIndex .tarjetas .cintas a {
+      width: 100%;
+      font-size: 26px;
+      padding: 25px; }
   .mainIndex .tarjetas .cintas:hover {
     transform: translate(-10px, -10px) scale(1.2); }
   .mainIndex .tarjetas .hilos {
@@ -78,6 +114,19 @@
     box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
     .mainIndex .tarjetas .hilos img {
       padding: 30px; }
+    .mainIndex .tarjetas .hilos h5 {
+      font-size: 35px;
+      color: #1a4726;
+      text-align: center;
+      text-decoration-line: underline; }
+    .mainIndex .tarjetas .hilos p {
+      font-size: 25px;
+      text-align: center;
+      color: #1a4726; }
+    .mainIndex .tarjetas .hilos a {
+      width: 100%;
+      font-size: 26px;
+      padding: 25px; }
   .mainIndex .tarjetas .hilos:hover {
     transform: translate(-10px, -10px) scale(1.2); }
   .mainIndex .tarjetas .guata {
@@ -87,6 +136,19 @@
     box-shadow: 6px 5px 8px 2px rgba(0, 0, 0, 0.3); }
     .mainIndex .tarjetas .guata img {
       padding: 30px; }
+    .mainIndex .tarjetas .guata h5 {
+      font-size: 35px;
+      color: #1a4726;
+      text-align: center;
+      text-decoration-line: underline; }
+    .mainIndex .tarjetas .guata p {
+      font-size: 25px;
+      text-align: center;
+      color: #1a4726; }
+    .mainIndex .tarjetas .guata a {
+      width: 100%;
+      font-size: 26px;
+      padding: 25px; }
   .mainIndex .tarjetas .guata:hover {
     transform: translate(-10px, -10px) scale(1.2); }
 
@@ -98,7 +160,7 @@
   margin: 50px 10px 10px 15px;
   font-size: 28px;
   color: #1a4726;
-  background-color: rgba(0, 0, 0, 0.933);
+  background-color: rgba(0, 0, 0, 0.249);
   padding: 10px; }
   .mainNos .parrafoNos p {
     padding: 15px;
@@ -163,6 +225,7 @@
 .mainContacto section {
   background-color: #d0ffe5;
   margin: 6px;
+  margin-bottom: 25px;
   padding: 6px;
   display: flex;
   flex-direction: row-reverse;
@@ -172,6 +235,7 @@
     display: flex;
     flex-direction: column;
     margin-right: 55px;
+    margin-top: 10px;
     padding: 10px;
     justify-content: space-evenly; }
     .mainContacto section .logoRedesContacto img {
@@ -195,7 +259,8 @@
     justify-content: space-between;
     width: 50%;
     margin-right: 50px;
-    margin-left: 30px; }
+    margin-left: 30px;
+    margin-top: 30px; }
     .mainContacto section .logosContacto img {
       width: 30px; }
     .mainContacto section .logosContacto .divDatos {
@@ -229,4 +294,4 @@ footer {
       margin-right: 14px; }
     footer .isologo h5 {
       margin-left: 15px;
-      color: white; }
+      color: black; }
