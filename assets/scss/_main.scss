@@ -1,3 +1,4 @@
+
 .mainIndex{
     display: flex;
     flex-direction: column;
@@ -33,7 +34,10 @@
         }
     }
     .tarjetas{
-        
+        width: 55rem;
+        display: flex;
+        flex-direction: column;
+
         .cierres{
             transition: all 3s;
             margin-top: 60px;
@@ -150,6 +154,35 @@
         .guata:hover{
             transform: translate(-10px, -10px)  scale(1.2);
         }
+        .tijeras{
+            transition: all 3s;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+            img{
+                padding: 30px;
+            }
+            h5{
+                font-size: 35px;
+                color: $colorPrimario;
+                text-align: center;
+                text-decoration-line: underline;
+            }
+            p{
+                font-size: 25px;
+                text-align: center;
+                color: $colorPrimario;
+            }
+            a{
+                width: 100%;
+                font-size: 26px;
+                padding: 25px;
+                background-color: $colorPrimario;
+            }
+        }
+        .tijeras:hover{
+            transform: translate(-10px, -10px)  scale(1.2);
+        }
     }
     }
     .mainNos{
@@ -170,6 +203,10 @@
             
           }
         }
+        .somosSomos{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
         .somos{
             display: flex;
             flex-direction: column;
@@ -180,6 +217,7 @@
                 background-color: rgba(0, 0, 0, 0.933);
                 img{
                     width: 700px;
+                    height: 900px;
                 }
                 h4{
                     
@@ -196,6 +234,7 @@
 
             }
         }
+     }
     }
     .mainContacto{
         background-image: url(../img/bga.jpg);
@@ -401,4 +440,19 @@
             }
           
         }
+        .mainTijeras{
+            margin-top: 200px;
+            margin-bottom: 200px;
+            h2{
+                color: $colorPrimario;
+                font-size: 100px;
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                font-size: 50px;
+                color: $colorPrimario;
+            }
+        }
     
+   

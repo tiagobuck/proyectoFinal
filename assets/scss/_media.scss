@@ -1,0 +1,960 @@
+
+@media(min-width:990px){
+
+    .mainIndex{
+        .sloganIndex{
+           
+            h2{
+                font-size: 150px;
+                color: $colorPrimario;
+                transition: all 3s;
+                margin-top: 26px;
+            }
+            h2:hover{
+                
+                    transform: rotateY(360deg);
+                
+            }
+            H3{
+                color: $colorPrimario;
+                margin-top: 35PX;
+                font-size: 50PX;
+                text-align: center;
+            }
+        }
+        .sectionIndex{
+            div{
+                h3{
+                    color: $colorPrimario;
+                    font-size: 35px;
+                    margin-top: 55px;
+                    text-align: center;
+                }
+            }
+        
+        .tarjetas{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            
+            .cierres{
+                width: 35rem;
+                transition: all 3s;
+                margin-right: 100px;
+                margin-top: 60px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                h5{
+                    font-size: 35px;
+                    color: $colorPrimario;
+                    text-align: center;
+                    text-decoration-line: underline;
+                }
+                p{
+                    font-size: 25px;
+                    text-align: center;
+                    color: $colorPrimario;
+                }
+                a{
+                    width: 100%;
+                    font-size: 26px;
+                    padding: 25px;
+                    background-color: $colorPrimario;
+                }
+               
+            }
+            .cierres:hover{
+                transform: translate(-10px, -10px)  scale(1.2);
+            }
+            .cintas{
+                width: 35rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                transition: all 3s;
+                margin-left: 100px;
+                margin-top: 60px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                img{
+                   width: 395px;
+                    padding: 10px;
+                    margin-top: 15px;
+                }
+                h5{
+                    font-size: 35px;
+                    color: $colorPrimario;
+                    text-align: center;
+                    text-decoration-line: underline;
+                }
+                p{
+                    font-size: 25px;
+                    text-align: center;
+                    color: $colorPrimario;
+                }
+                a{
+                    width: 100%;
+                    font-size: 26px;
+                    padding: 25px;
+                    background-color: $colorPrimario;
+                }
+            }
+            .cintas:hover{
+                transform: translate(-10px, -10px)  scale(1.2);
+            }
+            .hilos{
+                width: 35rem;
+                transition: all 3s;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                img{
+                    padding: 30px;
+                }
+                h5{
+                    font-size: 35px;
+                    color: $colorPrimario;
+                    text-align: center;
+                    text-decoration-line: underline;
+                }
+                p{
+                    font-size: 25px;
+                    text-align: center;
+                    color: $colorPrimario;
+                }
+                a{
+                    width: 100%;
+                    font-size: 26px;
+                    padding: 25px;
+                    background-color: $colorPrimario;
+                }
+            }
+            .hilos:hover{
+                transform: translate(-10px, -10px)  scale(1.2);
+            }
+            .guata{
+                width: 35rem;
+                transition: all 3s;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                img{
+                    padding: 30px;
+                }
+                h5{
+                    font-size: 35px;
+                    color: $colorPrimario;
+                    text-align: center;
+                    text-decoration-line: underline;
+                }
+                p{
+                    font-size: 25px;
+                    text-align: center;
+                    color: $colorPrimario;
+                }
+                a{
+                    width: 100%;
+                    font-size: 26px;
+                    padding: 25px;
+                    background-color: $colorPrimario;
+                }
+            }
+            .guata:hover{
+                transform: translate(-10px, -10px)  scale(1.2);
+            }
+        }
+    }
+        }
+        .mainNos{
+        
+            .parrafoNos{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 50px 10px 10px 15px;    
+            font-size: 28px;
+            color: $colorPrimario;
+            background-color: rgba(0, 0, 0, 0.249);
+            padding: 10px;
+            p {
+                padding: 15px;
+                line-height: 40px;
+                
+              }
+            }
+            .somos{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                div{
+                    text-align: center;
+                   margin-top: 25px;
+                    background-color: rgba(0, 0, 0, 0.933);
+                    img{
+                        width: 700px;
+                    }
+                    h4{
+                        
+                        color: $colorPrimario;
+                        font-size: 30px;
+                        margin-top: 10px;
+                    }
+                }
+                p{
+                    font-size: 40px;
+                    color: $colorPrimario;
+                    width: 700px;
+                    margin-top: 25px;
+    
+                }
+            }
+        }
+        .mainContacto{
+            background-image: url(../img/bga.jpg);
+            background-attachment: fixed;
+            background-repeat: repeat;
+            background-size: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 25px;
+            margin: 25px;
+            .divForm { 
+                width: 50%;
+                padding: 25px;
+                div{
+                    margin-top: 55px;
+                    margin-bottom: 55px;
+                }
+            
+                color: $colorPrimario;
+                font-size: 10px;
+                textarea {
+                    width: 90%;
+                    height: 250px;
+                    border: 4px solid $colorPrimario;
+                    border-radius: 15px;
+                    background-color: $colorTerciario;
+                    color: black;
+                    font-size: 18px;
+                    padding: 5px;
+                    margin-left: 15px;
+                  
+                }
+                input {
+                    width: 90%;
+                    height: 100px;
+                    border: 4px solid $colorPrimario;
+                    border-radius: 15px;
+                    background-color: $colorTerciario;
+                    color: white;
+                    font-size: 20px;
+                    padding: 5px;
+                    margin: 15px;
+                }
+                
+                .btnBtn{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 15px;
+                    
+                 
+                }
+        
+            .btnBtn input{
+                background-color: $colorPrimario;
+                font-size: 24px;
+                width: 150px;
+                align-items: center;
+                margin: 1px;
+                font-style: none;
+                text-decoration: none;
+            }
+            
+                
+            }
+            section{
+                width: 50%;
+                background-color: $colorTerciario;
+                margin-left: 55px;
+                margin-right: 55px;
+                margin-top: 55px;
+                margin-bottom: 150px;
+                padding: 100px;
+                
+                display: flex;
+                flex-direction: row-reverse;
+                justify-items: center;
+                .logoRedesContacto{
+             
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 5px;
+                    margin-top: 10px;
+                    padding: 10px;
+                    justify-content: space-evenly;
+                    img{
+                        width: 60px;
+                        margin-bottom: 30px
+                    }
+                    
+                    
+                    .divInstagram{
+                        display: flex;
+                        flex-direction: row-reverse;
+                        align-items: center;
+                     
+                        
+                        margin-bottom: 10px;
+                         h5{
+                            margin-bottom: 30px;
+                            margin-left: 15px;
+                            font-size: 16px;
+                            align-items: center;
+                        }
+                    }
+                    
+                }
+                .logosContacto {
+            
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 50%;
+                    margin-right: 50px;
+                    margin-left: 30px;
+                    margin-top: 30px;
+                    img {
+                
+                        width: 60px;
+                    
+                    }
+                    .divDatos{
+                        display: flex;
+                        flex-direction: row-reverse;  
+                        align-items: center;
+                        margin-bottom: 80px;
+                        h5 {
+                            font-size: 16px;
+                            margin-left: 5px;
+                            
+                            
+                        }
+                    }
+                }
+            
+                
+            }
+            }
+            .mainCierres{
+                .mono{
+                    background-color: rgba(0, 0, 0, 0.173);
+                    padding: 32px;
+                    margin: 15px;
+                    h4{
+                        text-align: center;
+                        text-decoration-line: underline;
+                        font-size: 42px;
+                        color: $colorPrimario;
+                        margin-top: 35px;
+                        margin-bottom: 55px;
+                    }
+                    p{
+                        font-size: 25px;
+                        line-height: 40px;
+                        text-align: center;
+                        
+                        color: $colorPrimario;
+                    }
+                    .mono1y2{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-evenly;
+                        margin-bottom: 152px;
+                        padding: 55px;
+    
+                        .mono1{
+                            width: 30%;
+        
+                        }
+                        .mono2{
+                            width: 25%;
+                        }
+                        .mono3{
+                            width: 50%;
+                        }
+                    
+    
+                    }
+                    .ddp{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-evenly;
+                        margin-bottom: 152px;
+                        padding: 55px;
+                    }
+                    .ddp1{
+                        width: 30%;
+                    }
+                    .ddp2{
+                        width: 30%;
+                    }
+                  
+                }
+                .parrafoHilos{
+                    padding: 24px;
+                    margin-bottom: 152px;
+                    background-color: rgba(0, 0, 0, 0.173);
+                    h3{
+                        color: $colorPrimario;
+                        font-size: 64px;
+    
+                    }
+                    p{
+                        color: $colorPrimario;
+                        font-size: 24px;
+                    }
+    
+                }
+              
+            }
+            footer{
+                height: 300px;
+                display: flex;
+                flex-direction: row-reverse;
+                align-items: center;
+                justify-content: space-between;
+                background-color: $colorPrimario;
+                .logosFooter{
+                    margin-top: 0px;
+                    margin-bottom: 190px;
+                    margin-right: 55px;
+                    a{
+                        img{
+                            width: 64px;
+                            margin: 8px;
+                        }
+                    }
+                }
+                .isologo{
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 200px;
+                   
+                    
+                   
+                    img{
+                        width: 150px;
+                        margin-bottom: 10px;
+                        margin-right: 0px;
+                        margin-left: 36px;
+                    }
+                    h5{
+                        margin-left: 15px;
+                        color: black;
+                    }
+                }
+            }
+            .navegador{
+                position: fixed;
+                top: 0;
+                z-index: 30;
+                border: 3px solid $colorPrimario;
+                display: flex;
+                flex-direction: row-reverse;
+                background-color: white;
+               .hamburguesa{
+                border: 6px solid $colorPrimario;
+            
+               }
+              
+                .imgLogo{
+                    display: flex;
+                    align-items: center;
+                    img{
+                        width: 90px;
+                        margin: 15px;
+                    }
+                    h1{
+                        color: $colorPrimario;
+                        margin: 5px 0 0 50px;
+                    }
+            
+                }
+                .menuHamb{
+                    ul{
+                        li{
+                            a{
+                                font-size: 25px;
+                            }
+                        }
+                    }
+                }
+            }
+            
+}
+@media(min-width:300px){
+
+    .mainIndex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .sloganIndex{
+            margin-top: 25px;
+           
+            h2{
+                font-size: 90px;
+                color: $colorPrimario;
+                transition: all 3s;
+            }
+            h2:hover{
+                
+                    transform: rotateY(360deg);
+                
+            }
+            H3{
+                color: $colorPrimario;
+                margin-top: 15PX;
+                font-size: 50PX;
+                text-align: center;
+            }
+        }
+        .sectionIndex{
+            div{
+                h3{
+                    color: $colorPrimario;
+                    font-size: 35px;
+                    margin-top: 55px;
+                    text-align: center;
+                }
+            }
+        }
+        .tarjetas{
+            width: 55rem;
+            display: flex;
+            flex-direction: column;
+    
+            .cierres{
+                transition: all 3s;
+                margin-top: 60px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                h5{
+                    font-size: 35px;
+                    color: $colorPrimario;
+                    text-align: center;
+                    text-decoration-line: underline;
+                }
+                p{
+                    font-size: 25px;
+                    text-align: center;
+                    color: $colorPrimario;
+                }
+                a{
+                    width: 100%;
+                    font-size: 26px;
+                    padding: 25px;
+                    background-color: $colorPrimario;
+                }
+               
+            }
+            .cierres:hover{
+                transform: translate(-10px, -10px)  scale(1.2);
+            }
+            .cintas{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                transition: all 3s;
+                margin-top: 60px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                img{
+                   width: 600px;
+                    padding: 10px;
+                    margin-top: 15px;
+                }
+                h5{
+                    font-size: 35px;
+                    color: $colorPrimario;
+                    text-align: center;
+                    text-decoration-line: underline;
+                }
+                p{
+                    font-size: 25px;
+                    text-align: center;
+                    color: $colorPrimario;
+                }
+                a{
+                    width: 846px;
+                    font-size: 26px;
+                    padding: 25px;
+                    background-color: $colorPrimario;
+                }
+            }
+            .cintas:hover{
+                transform: translate(-10px, -10px)  scale(1.2);
+            }
+            .hilos{
+                transition: all 3s;
+                margin-top: 60px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                img{
+                    padding: 30px;
+                }
+                h5{
+                    font-size: 35px;
+                    color: $colorPrimario;
+                    text-align: center;
+                    text-decoration-line: underline;
+                }
+                p{
+                    font-size: 25px;
+                    text-align: center;
+                    color: $colorPrimario;
+                }
+                a{
+                    width: 100%;
+                    font-size: 26px;
+                    padding: 25px;
+                    background-color: $colorPrimario;
+                }
+            }
+            .hilos:hover{
+                transform: translate(-10px, -10px)  scale(1.2);
+            }
+            .guata{
+                transition: all 3s;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                img{
+                    padding: 30px;
+                }
+                h5{
+                    font-size: 35px;
+                    color: $colorPrimario;
+                    text-align: center;
+                    text-decoration-line: underline;
+                }
+                p{
+                    font-size: 25px;
+                    text-align: center;
+                    color: $colorPrimario;
+                }
+                a{
+                    width: 100%;
+                    font-size: 26px;
+                    padding: 25px;
+                    background-color: $colorPrimario;
+                }
+            }
+            .guata:hover{
+                transform: translate(-10px, -10px)  scale(1.2);
+            }
+            .tijeras{
+                transition: all 3s;
+                margin-top: 60px;
+                margin-bottom: 60px;
+                box-shadow: 6px 5px 8px 2px rgba(0,0,0,0.3);
+                img{
+                    padding: 30px;
+                }
+                h5{
+                    font-size: 35px;
+                    color: $colorPrimario;
+                    text-align: center;
+                    text-decoration-line: underline;
+                }
+                p{
+                    font-size: 25px;
+                    text-align: center;
+                    color: $colorPrimario;
+                }
+                a{
+                    width: 100%;
+                    font-size: 26px;
+                    padding: 25px;
+                    background-color: $colorPrimario;
+                }
+            }
+            .tijeras:hover{
+                transform: translate(-10px, -10px)  scale(1.2);
+            }
+        }
+        }
+        .mainNos{
+            
+            .parrafoNos{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            margin: 50px 10px 10px 15px;    
+            font-size: 28px;
+            color: $colorPrimario;
+            background-color: rgba(0, 0, 0, 0.249);
+            padding: 10px;
+            p {
+                padding: 15px;
+                line-height: 40px;
+                
+              }
+            }
+            .somosSomos{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+            .somos{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                div{
+                    text-align: center;
+                   margin-top: 25px;
+                    background-color: rgba(0, 0, 0, 0.933);
+                    img{
+                        width: 700px;
+                        height: 900px;
+                    }
+                    h4{
+                        
+                        color: $colorPrimario;
+                        font-size: 30px;
+                        margin-top: 10px;
+                    }
+                }
+                p{
+                    font-size: 40px;
+                    color: $colorPrimario;
+                    width: 700px;
+                    margin-top: 25px;
+    
+                }
+            }
+         }
+        }
+        .mainContacto{
+            background-image: url(../img/bga.jpg);
+            background-attachment: fixed;
+            background-repeat: repeat-y;
+            background-size: contain;
+            .divForm { 
+                div{
+                    margin-top: 55px;
+                    margin-bottom: 55px;
+                }
+            
+                color: $colorPrimario;
+                font-size: 10px;
+                textarea {
+                    width: 95%;
+                    height: 450px;
+                    border: 4px solid $colorPrimario;
+                    border-radius: 15px;
+                    background-color: $colorTerciario;
+                    color: black;
+                    font-size: 18px;
+                    padding: 5px;
+                    margin-left: 15px;
+                  
+                }
+                input {
+                    width: 95%;
+                    height: 100px;
+                    border: 4px solid $colorPrimario;
+                    border-radius: 15px;
+                    background-color: $colorTerciario;
+                    color: white;
+                    font-size: 20px;
+                    padding: 5px;
+                    margin: 15px;
+                }
+                
+                .btnBtn{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 15px;
+                    
+                 
+                }
+        
+            .btnBtn input{
+                background-color: $colorPrimario;
+                font-size: 24px;
+                width: 150px;
+                align-items: center;
+                margin: 1px;
+                font-style: none;
+                text-decoration: none;
+            }
+            
+                
+            }
+            section{
+                background-color: $colorTerciario;
+                margin-left: 15px;
+                margin-right: 25px;
+                margin-top: 350px;
+                margin-bottom: 250px;
+                padding: 10px;
+                
+                display: flex;
+                flex-direction: row-reverse;
+                justify-items: center;
+                .logoRedesContacto{
+             
+                    width: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 5px;
+                    margin-top: 10px;
+                    padding: 10px;
+                    justify-content: space-evenly;
+                    img{
+                        width: 30px;
+                        margin-bottom: 30px
+                    }
+                    
+                    
+                    .divInstagram{
+                        display: flex;
+                        flex-direction: row-reverse;
+                        align-items: center;
+                     
+                        
+                        margin-bottom: 10px;
+                         h5{
+                            margin-bottom: 30px;
+                            margin-left: 15px;
+                            font-size: 16px;
+                            align-items: center;
+                        }
+                    }
+                    
+                }
+                .logosContacto {
+            
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 50%;
+                    margin-right: 50px;
+                    margin-left: 30px;
+                    margin-top: 30px;
+                    img {
+                
+                        width: 30px;
+                    
+                    }
+                    .divDatos{
+                        display: flex;
+                        flex-direction: row-reverse;  
+                        align-items: center;
+                        margin-bottom: 80px;
+                        h5 {
+                            font-size: 16px;
+                            margin-left: 5px;
+                            
+                            
+                        }
+                    }
+                }
+            
+                
+            }
+            }
+            .mainCierres{
+                .mono{
+                    background-color: rgba(0, 0, 0, 0.173);
+                    h4{
+                        text-align: center;
+                        text-decoration-line: underline;
+                        font-size: 42px;
+                        color: $colorPrimario;
+                        margin-top: 35px;
+                        margin-bottom: 55px;
+                    }
+                    p{
+                        font-size: 25px;
+                        line-height: 40px;
+                        text-align: center;
+                        
+                        color: $colorPrimario;
+                    }
+                    .mono1y2{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        margin-bottom: 152px;
+                        padding: 55px;
+    
+                        .mono1{
+                            width: 45%;
+        
+                        }
+                        .mono2{
+                            width: 45%;
+                        }
+                        .mono3{
+                            width: 100%;
+                        }
+                    
+    
+                    }
+                    .ddp{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        margin-bottom: 152px;
+                        padding: 55px;
+                    }
+                    .ddp1{
+                        width: 45%;
+                    }
+                    .ddp2{
+                        width: 45%;
+                    }
+                  
+                }
+                .parrafoHilos{
+                    padding: 24px;
+                    margin-bottom: 152px;
+                    background-color: rgba(0, 0, 0, 0.173);
+                    h3{
+                        color: $colorPrimario;
+                        font-size: 64px;
+    
+                    }
+                    p{
+                        color: $colorPrimario;
+                        font-size: 24px;
+                    }
+    
+                }
+              
+            }
+            .mainTijeras{
+                margin-top: 200px;
+                margin-bottom: 200px;
+                h2{
+                    color: $colorPrimario;
+                    font-size: 100px;
+                    text-align: center;
+                }
+                p{
+                    text-align: center;
+                    font-size: 50px;
+                    color: $colorPrimario;
+                }
+            }
+        
+}
+
