@@ -183,6 +183,10 @@
                 
               }
             }
+            .somosSomos{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
             .somos{
                 display: flex;
                 flex-direction: column;
@@ -210,6 +214,7 @@
                 }
             }
         }
+    }
         .mainContacto{
             background-image: url(../img/bga.jpg);
             background-attachment: fixed;
