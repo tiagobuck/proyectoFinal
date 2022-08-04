@@ -42,6 +42,7 @@
   color: #1a4726; }
 
 .headerCierres h3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 100px;
   text-align: center;
   font-size: 100px;
@@ -85,7 +86,8 @@
     .mainIndex .tarjetas .cierres a {
       width: 100%;
       font-size: 26px;
-      padding: 25px; }
+      padding: 25px;
+      background-color: #1a4726; }
   .mainIndex .tarjetas .cierres:hover {
     transform: translate(-10px, -10px) scale(1.2); }
   .mainIndex .tarjetas .cintas {
@@ -111,7 +113,8 @@
     .mainIndex .tarjetas .cintas a {
       width: 846px;
       font-size: 26px;
-      padding: 25px; }
+      padding: 25px;
+      background-color: #1a4726; }
   .mainIndex .tarjetas .cintas:hover {
     transform: translate(-10px, -10px) scale(1.2); }
   .mainIndex .tarjetas .hilos {
@@ -132,7 +135,8 @@
     .mainIndex .tarjetas .hilos a {
       width: 100%;
       font-size: 26px;
-      padding: 25px; }
+      padding: 25px;
+      background-color: #1a4726; }
   .mainIndex .tarjetas .hilos:hover {
     transform: translate(-10px, -10px) scale(1.2); }
   .mainIndex .tarjetas .guata {
@@ -154,7 +158,8 @@
     .mainIndex .tarjetas .guata a {
       width: 100%;
       font-size: 26px;
-      padding: 25px; }
+      padding: 25px;
+      background-color: #1a4726; }
   .mainIndex .tarjetas .guata:hover {
     transform: translate(-10px, -10px) scale(1.2); }
 
@@ -290,7 +295,7 @@
           margin-left: 5px; }
 
 .mainCierres .mono {
-  background-color: rgba(0, 0, 0, 0.249); }
+  background-color: rgba(0, 0, 0, 0.173); }
   .mainCierres .mono h4 {
     text-align: center;
     text-decoration-line: underline;
@@ -306,24 +311,44 @@
   .mainCierres .mono .mono1y2 {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 152px; }
+    justify-content: space-between;
+    margin-bottom: 152px;
+    padding: 55px; }
     .mainCierres .mono .mono1y2 .mono1 {
-      width: 50%; }
+      width: 45%; }
     .mainCierres .mono .mono1y2 .mono2 {
-      width: 50%; }
+      width: 45%; }
     .mainCierres .mono .mono1y2 .mono3 {
       width: 100%; }
   .mainCierres .mono .ddp {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 152px; }
+    justify-content: space-between;
+    margin-bottom: 152px;
+    padding: 55px; }
   .mainCierres .mono .ddp1 {
-    width: 50%; }
+    width: 45%; }
   .mainCierres .mono .ddp2 {
-    width: 50%; }
+    width: 45%; }
+
+.mainCierres .parrafoHilos {
+  padding: 24px;
+  margin-bottom: 152px;
+  background-color: rgba(0, 0, 0, 0.173); }
+  .mainCierres .parrafoHilos h3 {
+    color: #1a4726;
+    font-size: 64px; }
+  .mainCierres .parrafoHilos p {
+    color: #1a4726;
+    font-size: 24px; }
 
 aside {
   margin-bottom: 100px; }
+  aside h4 {
+    color: #1a4726;
+    font-size: 66px;
+    text-align: center;
+    margin-bottom: 25px; }
 
 footer {
   height: 300px;

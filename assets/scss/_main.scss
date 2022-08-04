@@ -53,6 +53,7 @@
                 width: 100%;
                 font-size: 26px;
                 padding: 25px;
+                background-color: $colorPrimario;
             }
            
         }
@@ -86,6 +87,7 @@
                 width: 846px;
                 font-size: 26px;
                 padding: 25px;
+                background-color: $colorPrimario;
             }
         }
         .cintas:hover{
@@ -113,6 +115,7 @@
                 width: 100%;
                 font-size: 26px;
                 padding: 25px;
+                background-color: $colorPrimario;
             }
         }
         .hilos:hover{
@@ -141,6 +144,7 @@
                 width: 100%;
                 font-size: 26px;
                 padding: 25px;
+                background-color: $colorPrimario;
             }
         }
         .guata:hover{
@@ -329,7 +333,7 @@
         }
         .mainCierres{
             .mono{
-                background-color: rgba(0, 0, 0, 0.249);
+                background-color: rgba(0, 0, 0, 0.173);
                 h4{
                     text-align: center;
                     text-decoration-line: underline;
@@ -348,14 +352,16 @@
                 .mono1y2{
                     display: flex;
                     flex-wrap: wrap;
+                    justify-content: space-between;
                     margin-bottom: 152px;
+                    padding: 55px;
 
                     .mono1{
-                        width: 50%;
+                        width: 45%;
     
                     }
                     .mono2{
-                        width: 50%;
+                        width: 45%;
                     }
                     .mono3{
                         width: 100%;
@@ -366,15 +372,33 @@
                 .ddp{
                     display: flex;
                     flex-wrap: wrap;
+                    justify-content: space-between;
                     margin-bottom: 152px;
+                    padding: 55px;
                 }
                 .ddp1{
-                    width: 50%;
+                    width: 45%;
                 }
                 .ddp2{
-                    width: 50%;
+                    width: 45%;
                 }
               
             }
+            .parrafoHilos{
+                padding: 24px;
+                margin-bottom: 152px;
+                background-color: rgba(0, 0, 0, 0.173);
+                h3{
+                    color: $colorPrimario;
+                    font-size: 64px;
+
+                }
+                p{
+                    color: $colorPrimario;
+                    font-size: 24px;
+                }
+
+            }
+          
         }
     
